@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scene Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="button-container">
+    <button onclick="showScene(1)">Scene 1</button>
+    <button onclick="showScene(2)">Scene 2</button>
+    <button onclick="showScene(3)">Scene 3</button>
+    <button onclick="showScene(4)">Scene 4</button>
+  </div>
+
+  <div id="scene1" class="scene">
+    <canvas id="canvas1"></canvas>
+  </div>
+
+  <div id="scene2" class="scene" style="display:none">
+    <canvas id="canvas2"></canvas>
+  </div>
+
+  <div id="scene3" class="scene" style="display:none">
+    <canvas id="canvas3"></canvas>
+  </div>
+
+  <div id="scene4" class="scene" style="display:none">
+    <canvas id="canvas4"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
